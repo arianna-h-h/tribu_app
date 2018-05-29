@@ -20,7 +20,7 @@ var findDocuments = function (db, callback) {
   collection.find({}).toArray(function (err, docs) {
     console.log(err);
     console.log('Found the following records');
-    console.log(docs)
+    console.log(docs);
     callback(docs);
   });
 };
