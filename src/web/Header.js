@@ -1,17 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+import logo from './LogoFinal.png';
 
 export const Header = () => (
-  <header>
-    <nav>
-      <ul>
-        <li><Link to='/'>Home</Link></li>
-        <li><Link to='/about'>AboutPage</Link></li>
-        <li><Link to='/trails'>Trails</Link></li>
-        <li><Link to='/ammenities'>Ammenities</Link></li>
-        <li><Link to='/store'>Store</Link></li>
-        <li><Link to='/calendar'>Calendar</Link></li>
-      </ul>
-    </nav>
-  </header>
+  <div className='bg-yellow'>
+    <header className='header'>
+      <img className='header-logo' src={logo} alt={'Tribu Logo'} />
+    </header>
+  </div>
 );
