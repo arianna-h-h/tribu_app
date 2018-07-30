@@ -1,3 +1,8 @@
+@font-face {
+  font-family: renner;
+  src: url('Renner_400Book.ttf') format('truetype');
+}
+
 html {
   background: url(mtn-placeholder.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -41,6 +46,7 @@ body {
 .white-text {
   color: white;
   display: inline-block;
+  font-family: renner;
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 10px;
