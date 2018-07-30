@@ -1,3 +1,4 @@
+<<<<<<< HEAD:src/index.css
 html {
   background: url(mtn-placeholder.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -12,6 +13,8 @@ body {
   padding: 0;
 }
 
+=======
+>>>>>>> add fonts:src/styles/mainpage.css
 .header {
   background-color: green;
   border-bottom: 2px solid black;
