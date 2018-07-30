@@ -1,0 +1,19 @@
+html {
+  /* background: url(mtn-placeholder.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+}
+
+body {
+  background-image: url('mtn-background.png');
+  background-attachment: fixed;
+   background-position: bottom right;
+  background-color: #F5E1A4;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: lemon-milk;
+  margin: 0;
+  padding: 0;
+}

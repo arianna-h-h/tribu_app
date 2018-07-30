@@ -1,7 +1,7 @@
 import React from 'react';
 
-export const Modal = ({ color }) => (
-  <div className={`bg-${color} modal`}>
+export const Modal = ({ content }) => (
+  <div className='bg-brown modal'>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas erat sem,
      convallis sed nisi sit amet, elementum varius mauris. Nunc finibus eleifend
       tellus, vitae faucibus enim consectetur at. Vivamus sed finibus mi.
