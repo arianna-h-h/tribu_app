@@ -4,10 +4,11 @@
 # testing
 /coverage
 
+
 # production
 /build
+/static
 _site/
-.static
 
 # misc
 .DS_Store

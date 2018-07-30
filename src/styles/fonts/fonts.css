@@ -1,0 +1,9 @@
+@font-face {
+  font-family: renner;
+  src: url('Renner_400Book.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: lemon-milk;
+  src: url('LemonMilk.otf');
+}
