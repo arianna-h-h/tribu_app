@@ -8,7 +8,10 @@ export const Header = ({ title }) => (
       <MenuDropdown />
       <div>{title}</div>
       <img className='header-logo' src={logo} alt={'Tribu Logo'} />
-      <div className='social'>social icons </div>
+      <div className='social'>
+        <i className='fab fa-instagram fa-3x icon' href='https://www.instagram.com/tribuoutdoorsmx/' />
+        <i className='fab fa-facebook fa-3x icon' href='https://www.instagram.com/tribuoutdoorsmx/' />
+      </div>
     </header>
   </div>
 );

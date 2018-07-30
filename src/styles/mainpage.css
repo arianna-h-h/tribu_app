@@ -38,7 +38,8 @@ li {
 }
 
 .dropdown {
-    display: inline-block;
+  color: white;
+  display: inline-block;
 }
 
 .dropdown__content {
@@ -56,16 +57,23 @@ li {
 
 
 .social {
+  color: white;
   display: inline-flex;
-  justify-content: flex-end;
+  flex-direction: row;
+  margin: 20px 25px 20px 50px;
+}
+
+.icon {
+  margin: 10px;
 }
 
 >>>>>>> add dropdown menu
 .header {
-  display: inline-flex;
+  align-items: center;
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  height: 100px;
+  height: 150px;
   width: 100%;
 }
 
@@ -76,10 +84,6 @@ li {
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
-}
-
-.dropdown {
-  color: white;
 }
 
 .menu-dropdown {
