@@ -1,98 +1,52 @@
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-li {
-  color: black;
-  padding: 10%;
-}
-
-.header-container {
-  display: flex;
-}
-
-.dropdown {
-  color: white;
-  display: inline-block;
-}
-
-.dropdown__content {
-  background-color: rgb(255,255,255, .7);
-  display: none;
-  position: absolute;
-  text-decoration: none;
-
-}
-
-.dropdown--active .dropdown__content {
-    display: block;
-    margin-top: 50px;
+@media (max-width: 639px){
+  .modal {
+    margin: 40px auto 75px auto;
+    padding: 50px 0 50px 0;
+    width: 100%;
+  }
+  .video {
+    height: auto;
+    width: 100%;
+  }
 }
 
 
-.social {
-  color: white;
-  display: inline-flex;
-  flex-direction: row;
-  margin: 20px 25px 20px 50px;
+@media (min-width: 640px){
+  .modal {
+    margin: 40px auto 75px auto;
+    padding: 50px 0 50px 0;
+    width: 600px;
+  }
+
+  .video {
+    height: auto;
+    width: 600px;
+  }
+
 }
 
-.icon {
-  margin: 10px;
+@media (min-width: 840px){
+  .modal {
+    margin: 40px auto 75px auto;
+    padding: 50px 0 50px 0;
+    width: 800px;
+  }
+
+  .video {
+    height: auto;
+    width: 800px;
+  }
 }
 
-.header {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  height: 150px;
-  width: 100%;
-}
+@media (min-width: 1100px){
+  .modal {
+    margin: 40px auto 75px auto;
+    padding: 50px 0 50px 0;
+    width: 1000px;
+  }
 
-.header-logo {
-  box-sizing: border-box;
-  display: block;
-  height: 85px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 10px;
-}
-
-.menu-dropdown {
-  margin: 20px 25px 20px 25px;
-}
-
-.white-text {
-  color: white;
-  display: inline-block;
-  font-family: renner;
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-top: 10px;
-  text-decoration: none;
-}
-
-.bg-brown {
-  background-color: #bbb78d;
-}
-
-.bg-blue {
-  background-color: blue;
-}
-
-.modal {
-  border: 2px solid black;
-  border-radius: 30px;
-  box-sizing: border-box;
-  margin: 75px auto;
-  padding: 25px;
-  width: 50%;
+  .video {
+    height: auto;
+    width: 1000px;
+  }
 }
