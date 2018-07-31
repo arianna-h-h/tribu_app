@@ -9,7 +9,7 @@ html {
 body {
   background-image: url('mtn-background.png');
   background-attachment: fixed;
-   background-position: bottom right;
+  background-position: bottom right;
   background-color: #F5E1A4;
   background-repeat: no-repeat;
   background-size: 100%;
