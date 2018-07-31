@@ -7,10 +7,16 @@ export const Header = ({ title }) => (
     <header className='header'>
       <MenuDropdown />
       <div>{title}</div>
-      <img className='header-logo' src={logo} alt={'Tribu Logo'} />
+      <a href='/'>
+        <img className='header-logo' src={logo} alt={'Tribu Logo'} />
+      </a>
       <div className='social'>
-        <i className='fab fa-instagram fa-3x icon' href='https://www.instagram.com/tribuoutdoorsmx/' />
-        <i className='fab fa-facebook fa-3x icon' href='https://www.instagram.com/tribuoutdoorsmx/' />
+        <a href='https://www.instagram.com/tribuoutdoorsmx/'>
+          <i className='fab fa-instagram fa-3x icon' />
+        </a>
+        <a href='https://www.instagram.com/tribuoutdoorsmx/'>
+          <i className='fab fa-facebook fa-3x icon' href='https://www.instagram.com/tribuoutdoorsmx/' />
+        </a>
       </div>
     </header>
   </div>

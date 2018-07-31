@@ -9,10 +9,10 @@ export const MenuDropdown = () => (
       <DropdownContent>
         <ul className='dropdown-content'>
           <li><Link to='/'>BASIC INFO & ACTIVITIES</Link> </li>
-          <li><Link to='/about'>TRAILS, AREAS & AMENITIES</Link></li>
-          <li><Link to='/trails'>GEAR & APPAREL</Link></li>
-          <li><Link to='/ammenities'>EMERGENCY CONTACTS</Link></li>
-          <li><Link to='/store'>ABOUT US</Link></li>
+          <li><Link to='/trails'>TRAILS, AREAS & AMENITIES</Link></li>
+          <li><Link to='/store'>GEAR & APPAREL</Link></li>
+          <li><Link to='/emergency'>EMERGENCY CONTACTS</Link></li>
+          <li><Link to='/about'>ABOUT US</Link></li>
         </ul>
       </DropdownContent>
     </Dropdown>
