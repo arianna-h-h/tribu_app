@@ -1,7 +1,0 @@
-
-/* We can ignore this error because Webpack's css-loader concatenates all css files into one   */
-/* csslint ignore:start */
-@import "./base.css";
-@import "./fonts/fonts.css";
-@import "./mainpage.css";
-/* csslint ignore:end */
